@@ -6,8 +6,6 @@
  * Author URI: https://www.linkedin.com/in/aldo-borghes/
  * Version: 1.0
  */
- <?php
-
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 add_action( 'phpmailer_init', 'aldo_borghes_force_smtp_config' );
